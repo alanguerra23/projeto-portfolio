@@ -1,0 +1,51 @@
+section.info-social {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+a.social-item {
+    display: inline-flex;
+    width: 55px;
+    height: 55px;
+    margin: 15px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 21px;
+    flex-shrink: 0;
+    transition: all 0.3s;
+    color: #fff
+}
+
+a.social-item:hover {
+    transform: scale(1.2);
+}
+
+a.social-item.twitter {
+    background: #029aff;
+}
+
+a.social-item.linkedin {
+    background: linear-gradient(45deg, #0078d7, #0078d7);
+}
+
+a.social-item.instagram {
+    background: linear-gradient(45deg, #f82206, #ff008c);
+}
+
+a.social-item.email {
+    background: linear-gradient(45deg, #f82206, #eb6755);
+}
+
+a.social-item.github {
+    background: linear-gradient(45deg, #333, #626b73);
+}
+
+a.social-item.discord {
+    background: #247bfc;
+}

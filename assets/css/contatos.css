@@ -1,0 +1,11 @@
+label {
+    color: #fff;
+}
+
+div.form-group {
+    display: flex;
+    flex-direction: column;
+}
+div.form-button {
+    padding: 10px;
+}
